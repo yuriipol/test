@@ -1,8 +1,15 @@
 .header {
+  height: 230px;
   background-color: rgba(0, 0, 0, 0.56);
+  opacity: 0.9;
+
   @include media-query(mobile) {
     padding-top: 40px;
     padding-bottom: 92px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.17;
 
     background-image: url(../images/abstract-background-with-red-lines\ 1.jpg);
     background-repeat: no-repeat;
@@ -30,6 +37,12 @@
   margin-top: 60px;
   width: 280px;
 
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+
+  color: #ffffff;
+
   border: none;
   background-color: transparent;
   border-bottom: 0.5px solid #ffffff;
@@ -41,4 +54,8 @@
   position: absolute;
   left: 288px;
   top: 84px;
+}
+.poster {
+  width: 210px;
+  height: 140px;
 }
