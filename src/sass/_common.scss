@@ -1,1 +1,45 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+
+  // color: $color-primary;
+  // background-color: $color-background;
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
