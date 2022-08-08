@@ -25,12 +25,10 @@ function responseSearch() {
     const paramMovies = results.data.results;
     console.log(paramMovies);
     renderMovies(paramMovies);
-    console.log(renderMovies(paramMovies));
   });
 }
 
 function renderMovies(results) {
   const event = gallary(results);
-  console.log(gallary(results));
   gallaryEl.innerHTML = event;
 }
